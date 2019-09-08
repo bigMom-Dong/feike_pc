@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <b style="display: block;">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo/logo.gif"/>
+                </a>
+            </div>
+            <div class="logo-head">
+                <a href="index.html">
+                    <img src="images/smallImg/home.png"/>
+                </a>
+                <span>首页</span>
+            </div>
+            <div class="cart_section">
+                <a class="mini_cart" target="_blank" href="/carts/">
+                    <i></i>购物车
+                    <span class="mini-car-num">
+                        (
+                        <em id="car_value">0</em>
+                        )
+                    </span>
+                </a>
+                <div class="mini-cart-list" >
+                    <div class="mt20">
+                        <div class="detail">
+                            <h1>共计0件商品</h1>
+                            <p>合计：<span>0元</span></p>
+                        </div>
+                        <input type="button" class="buyBtn" onclick="location.href='/carts/;'" value="去购物车结算">
+                    </div>
+                </div>
+            </div>
+            <div class="search_box">
+                <form class="pr">
+                    <input type="text" class="txt" id="search_txt" value="剃须刀" promptvalue="剃须刀"/>
+                    <input type="button" class="btn" id="search_btn"/>
+                    <div class="hot-words">
+                        <a href="#" class="in_b">剃须刀</a>
+                        <a href="#" class="in_b">电吹风</a>
+                    </div>
+                </form>
+            </div>
+        </b>
+        <script src="../jQuery/jquery-1.11.3.js"></script>
+        <script src="../js/public.js"></script>
+</body>
+</html>

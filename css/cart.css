@@ -1,0 +1,33 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+a{text-decoration: none;}
+.bc{margin-left: auto;margin-right: auto;}
+.f14{font-size: 14px;}
+.fr{float: right;display: inline;}
+li{list-style: none;}
+.mb20{margin-bottom:20px;}
+.mt20{margin-top:20px;}
+.mr10{margin-right: 10px;}
+.mr30{margin-right:30px;}
+.pl30{padding-left: 30px;}
+.tc{text-align: center;}
+.tl{text-align: left;}
+.w1240{width:1240px;}
+.order_tit{height:52px;margin:54px 0 29px;}
+.order_tit img{display: block;width:1240px;}
+.shop_cart{width:100%;color: #9fa0a0;}
+.shop_cart tr{width:1240px;height:40px;}
+.shop_cart th{height: 40px;background-color: #fafafa;}
+.cart_empty{background: url(../images/cart/del.png) no-repeat 0 0;height:16px;padding-left:30px;margin-left:30px;display: inline-block;}
+.cart_empty a{font-size: 15px;color:#9fa0a0;float: left;}
+.shop_total{padding:57px 0 33px;}
+.shop_total span{height: 20px;font-size: 15px;display: inline-block;color: #727171;}
+.shop_total strong{padding-left: 70px;height: 35px;line-height: 35px;font-size: 30px;display: inline-block;color: #ff7c44;}
+.shop_total b{font-style: normal;font-weight: normal;}
+.shop_total em{font-style:normal;font-weight: normal;}
+.cart_btn{margin-bottom:30px;height:50px;clear:both;}
+.cart_btn input{width:147px;height:36px;font-size: 15px;line-height: 36px;}
+.cart_btn .buy{border: 1px solid #ff7c44;background-color: #ff7c44;color: #fff;}
+.cart_btn .continue{border:1px solid #dcdddd;background-color: #fafafa;color: #727171;}

@@ -1,0 +1,55 @@
+[{
+    "name":"飞科电吹风FH6257",
+    "desc":"快速造型 / 健康护发",
+    "new_price":"39.9",
+    "old_price":"59元",
+    "url":"http://localhost/feike_pc/images/dis_goods/FH6257.png"
+},{
+    "desc":"浮动三刀头/强劲动力",
+    "color":"FS362",
+    "new_price":"65",
+    "old_price":"69元",
+    "cal_dis":"9.4",
+    "url":"http://localhost/feike_pc/images/dis_goods/FS362.png"
+},{
+    "desc":"全身水洗/全球电压",
+    "color":"FS339",
+    "new_price":"109",
+    "old_price":"269元",
+    "cal_dis":"4.0",
+    "url":"http://localhost/feike_pc/images/dis_goods/FS339.png"
+},{
+    "desc":"超强蒸汽/适合各种材质",
+    "color":"FI9308",
+    "new_price":"65",
+    "old_price":"99元",
+    "cal_dis":"6.5",
+    "url":"http://localhost/feike_pc/images/dis_goods/FI9308.png"
+},{
+    "name":"飞科剃须刀FS871",
+    "desc":"全球水洗 / 全球电压",
+    "new_price":"55",
+    "old_price":"119元",
+    "url":"http://localhost/feike_pc/images/dis_goods/FS871.png"
+},{
+    "desc":"1.8米延长线/防滑胶垫",
+    "color":"FS2008 ",
+    "new_price":"25",
+    "old_price":"29元",
+    "cal_dis":"8.6",
+    "url":"http://localhost/feike_pc/images/dis_goods/FS2008.png"
+},{
+    "desc":"全身水洗/三刀一体",
+    "color":"FC5806 ",
+    "new_price":"65",
+    "old_price":"99元",
+    "cal_dis":"6.5",
+    "url":"http://localhost/feike_pc/images/dis_goods/FC5806.png"
+},{
+    "desc":"完美去球/呵护衣物",
+    "color":"FR5218 ",
+    "new_price":"29.9",
+    "old_price":"49元",
+    "cal_dis":"6.1",
+    "url":"http://localhost/feike_pc/images/dis_goods/FR5218.png"
+}]

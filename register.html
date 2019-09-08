@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link href="css/basic.css" type="text/css" rel="stylesheet">
+    <link href="css/register.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="header"></div>
+    <div class="header-center w1240"></div>
+    <div class="content">
+        <div class="w1240 bc rg_c">
+            <div class="rg_form">
+                <h1 class="tc f24 blue">欢迎注册飞科商城</h1>
+                <div class="reg_content bc">
+                    <div class="reg_form">
+                        <form id="t_register" name="t_register" method="POST">
+                            <ul class="user_reg bc">
+                                <li class="ccode pr">
+                                    <span class="in_b pa"></span>
+                                    <input type="text" class="txt code fl color" id="t_checknumber" name="t_checknumber" maxlength="4" 
+                                    placeholder="请输入验证码"/>
+                                    <div class="printpic fl">
+                                        <b class="dynamic tc">9289</b>
+                                        <a href="#" id="change" onclick="" class="blue change">换一个</a>
+                                    </div>
+                                </li>
+                                <li class="user pr">
+                                    <span class="in_b pa"></span>
+                                    <input type="text" class="txt muser fl phone color" id="reg_phone" maxlength="11" placeholder="请输入手机号"/>
+                                    <input type="button" id="free_code" value="获取动态验证码" class="fcode fl"/>
+                                </li>
+                                <li class="mcode pr">
+                                    <span class="in_b pa"></span>
+                                    <input type="text" class="txt color" id="checkNumber" name="checkNumber" maxlength="6" placeholder="请输入手机验证码"/>
+                                </li>
+                                <li class="pwd pr">
+                                    <span class="in_b pa"></span>
+                                    <input type="text" class="txt color" id="pwd1" name="pwd1" maxlength="16" placeholder="请输入密码"/>
+                                </li>
+                                <li class="pwd pr">
+                                    <span class="in_b pa"></span>
+                                    <input type="text" class="txt color" id="checkNumber" name="checkNumber" maxlength="6" placeholder="请输入密码"/>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                    <a href="http://www.flyco.com/htlp-95.html" target="_blank" class="block tc blue mt30 mb10 f14">《飞科商城用户服务协议》</a>
+                    <div class="regBtn bc">
+                        <input type="submit" id="reg_btn" class="bc block" value="同意协议并注册"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script src="jquery/jquery-1.11.3.js"></script>
+    <script src="js/public.js"></script>
+</body>
+</html>
