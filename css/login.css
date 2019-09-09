@@ -16,6 +16,7 @@ a{text-decoration: none;}
     background:#ccc;line-height: 42px;}
 .login_tab a.current{background: #2264af;}
 .login_content{width:300px;overflow: hidden;}
+.login_content b{font-size: 12px;}
 #d_login{display:block;}
 .user_login{width: 300px;margin-top:38px;}
 .user_login li{width:298px;height:30px;line-height: 30px;border: 1px solid #e7e7e7;margin-bottom:23px;}
@@ -23,9 +24,9 @@ a{text-decoration: none;}
 .in_b{display: inline-block;}
 .pa{position: absolute;}
 .user_login li span{left:0;top:0;top:0;width:30px;height:30px;border-right: 1px solid #000;}
-.user_login li input{padding-left: 40px;border: 0;width: 258px;height: 25px;}
-.user_login .user span{background: url(../images/user/user-id.png) no-repeat left;background-size:50%;}
-.user_login .pass span{background: url(../images/user/user-pwd.png) no-repeat left;background-size:50%;}
+.user_login li input{padding-left: 40px;border: 0;width: 258px;height: 27px;}
+.user_login .user span{background: url(../images/user/user-id.png) no-repeat center;background-size:50%;}
+.user_login .pass span{background: url(../images/user/user-pwd.png) no-repeat center;background-size:50%;}
 .loginBtn{width:300px;}
 .loginBtn input{width: 300px;height: 39px;line-height: 39px;border: 0;margin-bottom: 10px;
     background-color: #0c82d9;color: #fff;font-size: 15px;}
@@ -38,11 +39,11 @@ a{text-decoration: none;}
 .go_reg span{float: left;}
 .block{display: block;}
 .none{display: none;}
-.user_login .ccode span{background: url(../images/user/user-code.png) no-repeat left;background-size:50%;}
-.user_login .mcode span{background: url(../images/user/user-mcode.png) no-repeat left;background-size:50%;}
+.user_login .ccode span{background: url(../images/user/user-code.png) no-repeat center;background-size:50%;}
+.user_login .mcode span{background: url(../images/user/user-pwd.png) no-repeat center;background-size:50%;}
 .login_content .printpic {width: 107px;height: 30px;line-height: 30px;display: block;margin-left: 0px;border-left: 1px solid #e7e7e7;
 font-size:12px;}
-.login_content .code{width:150px;height: 30px;}
+.login_content .code{width:258px;height: 30px;}
 .login_content .mcode{width:300px;height:30px;}
 .login_content .mcode span{float: left;display: block;}
 .login_content .mcode input{float: left;display: block;}

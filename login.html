@@ -15,8 +15,8 @@
         <div class="reg_wapper bc">
             <h1 class="f20 tc blue">欢迎登陆飞科商城</h1>
             <div class="login_tab f16">
-                <a href="javascript:void(0)" class="tc current">注册用户登录</a>
-                <a href="javascript:void(0)" class="tc">手机动态验证码登录</a>
+                <a href="javascript:void(0)" id="email" class="tc current">注册用户邮箱登录</a>
+                <a href="javascript:void(0)" id="phone" class="tc">注册用户手机号码登录</a>
             </div>
             <div class="login_content bc">
                 <div class="login_form">
@@ -24,32 +24,26 @@
                         <ul class="user_login bc" id="login_user">
                             <li class="user pr">
                                 <span class="in_b pa"></span>
-                                <input type="text" name="userName" id="userNmae" class="txt fl" placeholder="邮箱/手机" maxlength="64"/>
+                                <input type="text" name="d_user_email" id="d_user_email" class="txt fl" placeholder="请输入邮箱"/>
+                                <b></b>
                             </li>
+                            
                             <li class="pass pr">
                                 <span class="in_b pa"></span>
-                                <input type="password" name="password" id="password" class="pwd fl" placeholder="密码" maxlength="16"/>
-                            </li>
+                                <input type="password" name="password" id="password" class="pwd fl" placeholder="请输入密码" maxlength="6"/>
+                                <b></b>
+                            </li> 
                         </ul>
                     </form>
                     <form class="none" id="phone_login" name="phone_login" method="post">
                             <ul class="user_login bc" id="login_phone">
-                                <li class="ccode pr clearfix">
-                                    <span class="in_b pa"></span>
-                                    <input type="text" class="txt code fl" id="t_checknumber" name="dr_checknumber" maxlength="4" value="" placeholder="请输入验证码">
-                                    <div class="printpic fl">
-                                        <img class="dynamic" id="dregvCode" src="#" alt="图片">
-                                        <a href="javascript:void(0);" onclick="">换一张</a>
-                                    </div>
-                                </li>
                                 <li class="user pr "><span class="in_b pa"></span>
                                     <input type="text" class="txt phone" name="d_user_phone" id="d_user_phone" placeholder="请输入手机号" maxlength="11">
-                                    <h2 class="red pa none" id="tel_p_name"></h2>
+                                    <b></b>
                                 </li>
                                 <li class="mcode pr clearfix"><span class="in_b pa"></span>
-                                    <input type="text" class="txt code fl" id="d_checkcode" value="" placeholder="请输入手机验证码" maxlength="6">
-                                    <input type="button" id="free_code" value="获取动态验证码" class="fcode  fl">
-                                    <h2 class="red pa none" id="tel_p_psw"></h2>
+                                    <input type="text" class="txt code fl" id="d_password" name="d_password" value="" placeholder="请输入密码" maxlength="6">
+                                    <b></b>
                                 </li>
                             </ul>
                         </form>
@@ -59,17 +53,17 @@
                 <input type="button" class="blick bc mt10" id="loginBtn" value="登录"/>
             </div>
             <div class="go_reg bc">
-                <div class="reg_forget">
+                <!-- <div class="reg_forget">
                     <span class="fl pr pl20">
                         <input type="checkbox" class="pa"/>
                         两周内免登录
                     </span>
                     |
-                    <a href="#" class="blue">忘记密码</a>
-                </div>
+                    <a href="#" id="forget" class="blue">忘记密码</a>
+                </div> -->
                 <span>还没有账号?</span>
                 <span>
-                    <a href="register.html" class="block blue">立即注册</a>
+                    <a href="http://localhost/feike_pc/register.html" class="block blue">立即注册</a>
                 </span>
             </div>
             <div class="quick_login bc">
@@ -94,5 +88,7 @@
     <div class="footer"></div>
     <script src="jquery/jquery-1.11.3.js"></script>
     <script src="js/public.js"></script>
+    <script src="js/ajax-jsonps.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>
