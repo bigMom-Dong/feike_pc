@@ -6,7 +6,7 @@
         }
         getDate(){
             ajax({
-                url:"http://localhost/feike_pc/json/hot_goods/hot_goods_l_t.json",
+                url:"http://localhost/feike_pc/json/goods.json",
                 success:(res)=>{
                     this.res = JSON.parse(res);
                     this.display();
@@ -15,7 +15,7 @@
         }
         display(){
             var str = "";
-            for(var i=0;i<this.res.length;i++){
+            for(var i=0;i<=0;i++){
                 str +=`<ul>
                             <li class="goods-item-l-2">
                                 <div class="msg">

@@ -110,8 +110,8 @@ category_list{top: 46px;left: 0;z-index: 9999;padding: 20px 0;background: rgba(0
 .price{left: 25px;top: 60px;font-size: 12px;position: absolute;}
 .price span{font-size: 15px;}
 .figure{float: right;}
-.prom-2-1{width: 286px;height: 680px;float: left;border: 6px solid #fff;margin-top: 15px;}
-.prom-2-1 ul .goods-item-l-2{margin-left: -16px;background: #f3efff}
+.prom-2-1{width: 286px;height: 680px;float: left;border: 6px solid #fff;margin-top: 15px;background-color:#f3efff;}
+.prom-2-1 ul .goods-item-l-2{margin-left: -16px;}
 .prom-2-1 .figure{width: 250px;margin: 100px 21px;}
 .items-3{float: left;margin-top: 22px;min-height: 1px;display:flex;width:942px;}
 /* 新品上市 */

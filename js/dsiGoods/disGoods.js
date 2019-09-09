@@ -6,7 +6,7 @@
         }
         getDate(){
             ajax({
-                url:"http://localhost/feike_pc/json/dis_goods/dis_goods_r.json",
+                url:"http://localhost/feike_pc/json/goods.json",
                 success:(res)=>{
                     this.res = JSON.parse(res);
                     this.display();
@@ -15,9 +15,25 @@
         }
         display(){
             var str = "";
-            for(var i=0;i<this.res.length;i++){
-                if(i == 0 || i== 4){
+            for(var i=17;i<this.res.length;i++){
+                if(i == 17){
                     str +=`<li class="goods-item" style="background: #fffce7">
+                            <div class="msg">
+                                <p class="title">${this.res[i].name}</p>
+                                <p class="desc">${this.res[i].desc}</p>
+                                <p class="dis_price">
+                                    <span class="new-price">${this.res[i].new_price}</span>元
+                                    <span class="old-price">${this.res[i].old_price}</span>
+                                </p>
+                            </div>
+                            <div class="figure" style="position:relative;top:-25px;">
+                                <a href="#" target="_blank">
+                                    <img src="${this.res[i].url}" alt="图片"/>
+                                </a>
+                            </div>
+                        </li>`;
+                }else if(i ==21){
+                    str +=`<li class="goods-item" style="background: #ffecef">
                             <div class="msg">
                                 <p class="title">${this.res[i].name}</p>
                                 <p class="desc">${this.res[i].desc}</p>
