@@ -17,39 +17,39 @@
             var str = "";
             for(var i=17;i<this.res.length;i++){
                 if(i == 17){
-                    str +=`<li class="goods-item" id="${this.res[i].name}" style="background: #fffce7">
-                            <div class="msg">
-                                <p class="title">${this.res[i].name}</p>
-                                <p class="desc">${this.res[i].desc}</p>
-                                <p class="dis_price">
-                                    <span class="new-price">${this.res[i].new_price}</span>元
-                                    <span class="old-price">${this.res[i].old_price}</span>
-                                </p>
-                            </div>
-                            <div class="figure" style="position:relative;top:-25px;">
-                                <a href="#">
-                                    <img src="${this.res[i].url}" alt="图片"/>
-                                </a>
-                            </div>
-                        </li>`;
+                    str +=`<li class="goods-item" style="background: #fffce7">
+                                <div class="msg">
+                                    <p class="title">${this.res[i].name}</p>
+                                    <p class="desc">${this.res[i].desc}</p>
+                                    <p class="dis_price">
+                                        <span class="new-price">${this.res[i].new_price}</span>元
+                                        <span class="old-price">${this.res[i].old_price}</span>
+                                    </p>
+                                </div>
+                                <div class="figure" style="position:relative;top:-25px;">
+                                    <a href="http://localhost/feike_pc/detail.html?id=${this.res[i].id}" target="_blank">
+                                        <img src="${this.res[i].url}" alt="图片"/>
+                                    </a>
+                                </div>
+                            </li>`;
                 }else if(i ==21){
-                    str +=`<li class="goods-item" id="${this.res[i].name}" style="background: #ffecef">
-                            <div class="msg">
-                                <p class="title">${this.res[i].name}</p>
-                                <p class="desc">${this.res[i].desc}</p>
-                                <p class="dis_price">
-                                    <span class="new-price">${this.res[i].new_price}</span>元
-                                    <span class="old-price">${this.res[i].old_price}</span>
-                                </p>
-                            </div>
-                            <div class="figure" style="position:relative;top:-25px;">
-                                <a href="#">
-                                    <img src="${this.res[i].url}" alt="图片"/>
-                                </a>
-                            </div>
+                    str +=`<li class="goods-item" style="background: #ffecef">
+                                <div class="msg">
+                                    <p class="title">${this.res[i].name}</p>
+                                    <p class="desc">${this.res[i].desc}</p>
+                                    <p class="dis_price">
+                                        <span class="new-price">${this.res[i].new_price}</span>元
+                                        <span class="old-price">${this.res[i].old_price}</span>
+                                    </p>
+                                </div>
+                                <div class="figure" style="position:relative;top:-25px;">
+                                    <a href="http://localhost/feike_pc/detail.html?id=${this.res[i].id}" target="_blank">
+                                        <img src="${this.res[i].url}" alt="图片"/>
+                                    </a>
+                                </div>
                         </li>`;
                 }else{
-                    str += `<li class="goods-item" id="${this.res[i].name}" style="background:#fff">
+                    str += `<li class="goods-item" style="background:#fff">
                                 <div class="msg">
                                     <p class="dis">
                                         <span class="cal-dis">${this.res[i].cal_dis}</span>折</p>
@@ -62,9 +62,9 @@
                                             <span class="cal-market-price FS362">${this.res[i].old_price}</span>元</span></p>
                                 </div>
                                 <div class="dis_figure">
-                                    <a href="#"><img src="${this.res[i].url}"></a></div>
+                                    <a href="http://localhost/feike_pc/detail.html?id=${this.res[i].id}" target="_blank"><img src="${this.res[i].url}"></a></div>
                                 <div class="dis_hover" style="height:50px;">
-                                    <a>
+                                    <a href="http://localhost/feike_pc/detail.html?id=${this.res[i].id}" target="_blank">
                                         <span class="review">内外兼修&nbsp;奢宠经典</span>
                                         <span class="comment">浮动三刀头&nbsp;/&nbsp;双环极速贴面刀网&nbsp;/&nbsp;超长待机</span>
                                     </a>

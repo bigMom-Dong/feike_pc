@@ -17,10 +17,10 @@
             var str = "";
             for(var i=0;i<=0;i++){
                 str +=`<ul>
-                            <li class="goods-item-l-2" id="${this.res[i].name}">
+                            <li class="goods-item-l-2">
                                 <div class="msg">
                                     <h3 class="title">
-                                        <a href="#" >${this.res[i].name}</a>
+                                        <a href="http://localhost/feike_pc/detail.html?id=${this.res[i].id}" target="_blank">${this.res[i].name}</a>
                                     </h3>
                                     <p class="desc">
                                             ${this.res[i].title}
@@ -31,7 +31,7 @@
                                     </p>
                                 </div>
                                 <div class="figure">
-                                    <a href="#">
+                                    <a href="http://localhost/feike_pc/detail.html?id=${this.res[i].id}" target="_blank">
                                         <img src="${this.res[i].url}"/>
                                     </a>
                                 </div>

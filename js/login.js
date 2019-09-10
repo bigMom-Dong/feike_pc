@@ -95,7 +95,6 @@
                         return this.goods[i].phone == this.phoneObj.value && this.goods[i].pass == this.passObj.value;
                     }
                 })
-                console.log(bol);
                 if(bol){
                     window.location.href = "http://localhost/feike_pc/index.html";
                 }else{

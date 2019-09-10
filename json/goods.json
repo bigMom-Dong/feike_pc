@@ -1,4 +1,5 @@
 [{
+    "id":1,
     "name":"飞科智能剃须刀FS375",
     "title":"经典爆款 / 全身水洗 / 全球电压",
     "intr" : "【爆款特卖】品味首选 超凡剃须体验 全新设计理念 升级剃须享受",
@@ -8,6 +9,7 @@
     "sales" : "79402",
     "url":"http://localhost/feike_pc/images/hot_goods/FS375.png"
 },{
+    "id":2,
     "name":"飞科理发器FC5908",
     "title":"强劲模式 / 全球电压 / 充插两用压",
     "intr":"【爆款特卖】超强动力理发 专业智能 高效安全",
@@ -17,79 +19,88 @@
     "sales":"36717",
     "url":"http://localhost/feike_pc/images/hot_goods/FC5908.png"
 },{
+    "id":3,
     "name":"飞科剃须刀FS372",
     "title":"本款产品月销量",
     "intr":"【爆款特卖】闪耀巨献  大气优雅   全新设计理念  精雕细作  完美升级",
     "number":"181437",
-    "price":"89元",
+    "new_price":"89元",
     "eva":"1433",
     "sales":"121732",
     "url":"http://localhost/feike_pc/images/hot_goods/FS372.png"
 },{
+    "id":4,
     "name":"飞科电吹风FH6618",
     "title":"本款产品月销量",
     "intr":"【爆款特卖】闪耀巨献  大气优雅   全新设计理念  精雕细作  完美升级",
     "number":"163561",
-    "price":"69.9元",
+    "new_price":"69.9元",
     "eva":"1579",
     "sales":"171115",
     "url":"http://localhost/feike_pc/images/hot_goods/FH6618.png"
 },{
+    "id":5,
     "name":"飞科理发器FC5811",
     "title":"本款产品月销量",
     "intr" : "【爆款特卖】品味首选 超凡剃须体验 全新设计理念 升级剃须享受",
     "number":"776",
-    "price":"69元",
+    "new_price":"69元",
     "eva":"24",
     "sales":"849",
     "url":"http://localhost/feike_pc/images/hot_goods/FC5811.png"
 },{
+    "id":6,
     "name":"飞科女士剃毛器FSS5501",
     "title":"本款产品月销量",
     "intr" : "【爆款特卖】品味首选 超凡剃须体验 全新设计理念 升级剃须享受",
     "number":"13980",
-    "price":"85元",
+    "new_price":"85元",
     "eva":"2",
     "sales":"11967",
     "url":"http://localhost/feike_pc/images/hot_goods/FS5501.png"
 },{
+    "id":7,
     "name":"飞科电吹风FH6106",
     "title":"本款产品月销量",
     "intr":"【爆款特卖】负离子沁润发芯  六档调节 启动秀发护理沙龙级模式 水准深浅一目了然",
     "number":"1860",
-    "price":"136元",
+    "new_price":"136元",
     "eva":"3",
     "sales":"2354",
     "url":"http://localhost/feike_pc/images/hot_goods/FH6106.png"
 },{
+    "id":8,
     "name":"飞科插座FS2001",
     "title":"本款产品月销量",
     "number":"11861",
-    "price":"45元",
+    "new_price":"45元",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"0",
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/hot_goods/FS2001.png"
 },{
+    "id":9,
     "name":"飞科加湿器FH9225",
     "title":"本款产品月销量",
     "number":"176",
-    "price":"159元",
+    "new_price":"159元",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"2",
     "sales":"158",
     "url":"http://localhost/feike_pc/images/hot_goods/FH9225.png"
 },{
+    "id":10,
     "name":"飞科挂烫机FI9819",
     "title":"本款产品月销量",
     "number":"879",
-    "price":"199元",
+    "new_price":"199元",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"647",
     "sales":"863",
     "url":"http://localhost/feike_pc/images/hot_goods/FI9819.png"
 },
 {
+    "id":11,
     "name":"飞科剃须刀FS310",
     "title":"全身水洗 / 智能充电显示 / 智能防夹须",
     "new_price":"129",
@@ -99,55 +110,62 @@
     "sales":"43327",
     "url":"http://localhost/feike_pc/images/new_goods/FS310.png"
 },{
+    "id":12,
     "name":"飞科健康秤FH7013 ",
     "desc":"智能蓝牙连接 / 智能云端数据管理 / 智能APP云端分析",
-    "price":"99",
+    "new_price":"99",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"0",
     "sales":"753",
     "url":"http://localhost/feike_pc/images/new_goods/FH7013.png"
 },{
+    "id":13,
     "name":"飞科电吹风FH6218 ",
     "desc":"水润负离子 / 六档调节 / 一见倾心",
-    "price":"75",
+    "new_price":"75",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"0",
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/new_goods/FH6218.png"
 },{
+    "id":14,
     "name":"飞科剃须刀FS318  ",
     "desc":"全身水洗 / 充插两用 / 全球电压",
-    "price":"79",
+    "new_price":"79",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"0",
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/new_goods/FS318.png"
 },{
+    "id":15,
     "name":"飞科USB插座FS2000 ",
     "desc":"智能蓝牙连接 / 智USB智能插座 / 1.8米延长线 / 防滑胶垫",
-    "price":"45",
+    "news_price":"45",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"0",
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/new_goods/FS2000.png"
 },{
+    "id":16,
     "name":"飞科鼻毛修剪器FS7806 ",
     "desc":"型男首选 / 清洁卫生 / 专注细节",
-    "price":"29",
+    "new_price":"29",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"0",
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/new_goods/FS7806.png"
 },{
+    "id":17,
     "name":"飞科毛球修剪器FR5230  ",
     "desc":"精磨不锈钢刀网 / 充电显示灯 / 轻触式开关",
-    "price":"35",
+    "new_price":"35",
     "intr":"【爆款特卖】安全 专业 时尚",
     "eva":"0",
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/new_goods/FR5230.png"
 },
 {
+    "id":18,
     "name":"飞科电吹风FH6257",
     "desc":"快速造型 / 健康护发",
     "new_price":"39.9",
@@ -157,6 +175,7 @@
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/dis_goods/FH6257.png"
 },{
+    "id":19,
     "name":"飞科FS362剃须刀",
     "desc":"浮动三刀头/强劲动力",
     "color":"FS362",
@@ -168,6 +187,7 @@
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/dis_goods/FS362.png"
 },{
+    "id":20,
     "name":"飞科智能剃须刀FS339",
     "desc":"全身水洗/全球电压",
     "color":"FS339",
@@ -179,6 +199,7 @@
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/dis_goods/FS339.png"
 },{
+    "id":21,
     "name":"飞科电熨斗FI-9308",
     "desc":"超强蒸汽/适合各种材质",
     "color":"FI9308",
@@ -190,6 +211,7 @@
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/dis_goods/FI9308.png"
 },{
+    "id":22,
     "name":"飞科剃须刀FS871",
     "desc":"全球水洗 / 全球电压",
     "new_price":"55",
@@ -199,6 +221,7 @@
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/dis_goods/FS871.png"
 },{
+    "id":23,
     "name":"飞科插座FS2008",
     "desc":"1.8米延长线/防滑胶垫",
     "color":"FS2008 ",
@@ -210,6 +233,7 @@
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/dis_goods/FS2008.png"
 },{
+    "id":24,
     "name":"飞科理发器FC5806",
     "desc":"全身水洗/三刀一体",
     "color":"FC5806 ",
@@ -221,6 +245,7 @@
     "sales":"12005",
     "url":"http://localhost/feike_pc/images/dis_goods/FC5806.png"
 },{
+    "id":25,
     "name":"飞科毛球修剪器FR5218",
     "desc":"完美去球/呵护衣物",
     "color":"FR5218 ",
