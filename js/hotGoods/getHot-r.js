@@ -16,14 +16,14 @@
         display(){
             var str = "";
             for(var i=2;i<4;i++){
-                str +=`<li class="items-1">
+                str +=`<li class="items-1" id="${this.res[i].name}">
                 <div class="msg">
                     <p class="title">${this.res[i].name}</p>
-            <p class="month-num">${this.res[i].title}<span>${this.res[i].number}</span></p>
-            <p class="price">${this.res[i].price}<span>元</span></p>
+                    <p class="month-num">${this.res[i].title}<span>${this.res[i].number}</span></p>
+                    <p class="price">${this.res[i].price}</p>
                 </div>
                 <div class="figure">
-                    <a href="#" target="_blank">
+                    <a href="#">
                         <img src="${this.res[i].url}"/>
                     </a>
                 </div>

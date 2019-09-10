@@ -16,8 +16,8 @@
         display(){
             var str = "";
             for(var i=11;i<17;i++){
-                str +=`<li class="items-1">
-                            <img src="${this.res[i].url}"/>
+                str +=`<li class="items-1" id="${this.res[i].name}">
+                            <div><div><img src="${this.res[i].url}"/></div></div>
                             <div class="msg">
                                 <p class="title">${this.res[i].name}
                                     <span class="cal-price">${this.res[i].price}</span>

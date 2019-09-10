@@ -30,11 +30,11 @@ li{list-style: none;}
 a{color: #000;outline: none;}
 .goods_detail{background: #fff;}
 .goodsDetailBox{height:573px;}
-.goodsDetailBox .detailLeft{margin:38px 47px 0 33px;width:386px;height:450px;border:1px solid #ddd;background-color: #fff;}
+.goodsDetailBox .detailLeft{margin:38px 47px 0 33px;width:386px;height:400px;border:1px solid #ddd;background-color: #fff;}
 .goodsDetailBox .detailRight{width:708px;height: 540px;}
 .goodsMainPic a{width:372px;height:368px;display: block;position: relative;}
 .goodsMainPic a img{display: block;position: absolute;top:8px;left:0;border:0;background: #f5f5f5;width:372px;height:368px;}
-.goodsScrollPic{width:372px;height:60px;}
+/* .goodsScrollPic{width:372px;height:60px;}
 .goodsScrollPic li{display: inline;float: left;height:60px;overflow: hidden;}
 .goodsScrollPic .btnPrevious{margin-right: 13px;}
 .goodsScrollPic .btnPrevious a{background:url(../images/detail/prev.png) no-repeat left;width:13px;height:60px;display: block;}
@@ -44,7 +44,7 @@ a{color: #000;outline: none;}
 .goodsScrollPic .picList ul{width:1000px;}
 .goodsScrollPic .picList ul li{width:60px;margin-right:4px;display: inline;float:left;overflow: hidden;}
 .goodsScrollPic ul li span{display: block;border: 1px solid #dad7d7;width:58px;height:58px;}
-.goodsScrollPic ulli span img{display: block;width:58px;height:58px;}
+.goodsScrollPic ulli span img{display: block;width:58px;height:58px;} */
 .detailRight{width:708px;height:540px;}
 .detailRight .detailTitle{font-size:23px;line-height: 30px;margin-top: 20px;font-weight: normal;}
 .detailRight .detailInfo{padding:12px 0;color: #818181;}

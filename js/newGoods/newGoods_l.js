@@ -16,10 +16,10 @@
         display(){
             var str = "";
             for(var i=10;i<11;i++){
-                str +=`<li class="goods-item-l-2"">
+                str +=`<li class="goods-item-l-2" id="${this.res[i].name}">
                             <div class="msg">
                                 <h3 class="title">
-                                    <a href="#" target="_blank">${this.res[i].name}</a>
+                                    <a href="#">${this.res[i].name}</a>
                                     <p class="desc">${this.res[i].title}</p>
                                     <p class="price">
                                         <span class="new-price">${this.res[i].new_price}<b>元</b></span>
@@ -28,7 +28,7 @@
                                 </h3>
                             </div>
                             <div class="figure">
-                                <a href="#" target="_blank">
+                                <a href="#">
                                     <img src="${this.res[i].url}"/>
                                 </a>
                             </div>

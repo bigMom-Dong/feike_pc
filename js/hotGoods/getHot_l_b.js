@@ -16,7 +16,7 @@
         display(){
             var str = "";
             for(var i=1;i<2;i++){
-                str +=`<li class="goods-item-l-2">
+                str +=`<li class="goods-item-l-2" id="${this.res[i].name}">
                         <div class="msg">
                             <h3 class="title">
                                 <a href="#" target="_blank">${this.res[i].name}</a>

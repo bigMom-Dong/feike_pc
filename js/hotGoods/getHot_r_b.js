@@ -16,7 +16,7 @@
         display(){
             var str = "";
             for(var i=4;i<10;i++){
-                str +=`<li class="items-1">
+                str +=`<li class="items-1" id="${this.res[i].name}">
                             <div class="msg">
                                 <p class="title">${this.res[i].name}</p>
                                 <p class="month-num">${this.res[i].title}&nbsp;<span>${this.res[i].number}</span></p>
