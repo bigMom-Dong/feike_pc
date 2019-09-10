@@ -16,10 +16,10 @@
             <img class="bc w1240" src="images/cart/cart_tit.png"/>
         </div>
         <table class="shop_cart mb20 tc f14">
-            <tbody>
+            <thead>
                 <tr>
                     <th>
-                        <input type="checkbox" checked name="selectAll"/>
+                        <input type="checkbox" checked id="check" class="qx" name="selectAll"/>
                     </th>
                     <th class="tl pl30">商品</th>
                     <th>单价</th>
@@ -27,14 +27,16 @@
                     <th>小计</th>
                     <th>操作</th>
                 </tr>
+            </thead>
+            <tbody class="tb">
             </tbody>
         </table>
         <h1 class="cart_empty">
-            <a href="#" onclick="">清空购物车</a>
+            <a href="#">清空购物车</a>
         </h1>
-        <h1 class="cart_empty">
-            <a href="#" onclick="">删除选中项</a>
-        </h1>
+        <!-- <h1 class="cart_empty">
+            <a href="#">删除选中项</a>
+        </h1> -->
         <div class="shop_total">
             <div class="fr">
                 <span>商品总计:</span>
@@ -53,5 +55,7 @@
     <div class="footer"></div>
     <script src="jquery/jquery-1.11.3.js"></script>
     <script src="js/public.js"></script>
+    <script src="js/ajax-jsonps.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>

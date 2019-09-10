@@ -4,6 +4,9 @@
             this.goodsBox = document.getElementsByClassName("goodsDetailBox")[0];
             this.url = "http://localhost/feike_pc/json/goods.json";
             this.id = document.location.href.split("?")[1].split("=")[1];
+            this.baison = document.getElementById("baison-out");
+            this.closeObj = document.getElementById("close");
+            this.goShopping = document.getElementById("go_shopping");
             this.t = false;
             this.getInfo();
             this.addEvent();
@@ -88,6 +91,12 @@
                 var tar = e.target || e.srcElement;
                 this.setLocal();
             })
+            this.closeObj.onclick = ()=>{
+                this.baison.style.display = "none";
+            }
+            this.goShopping.onclick = ()=>{
+                window.location.href = "http://localhost/feike_pc/cart.html";
+            }
         }
         setLocal(){
             this.byGoods = localStorage.getItem("byGoods") ? JSON.parse(localStorage.getItem("byGoods")) : [];
@@ -113,9 +122,10 @@
                 }
                 this.t = true;
             }
-            console.log(JSON.stringify(this.byGoods));
+            this.baison.style.display = "block";
             localStorage.setItem("byGoods",JSON.stringify(this.byGoods));
         }
+        
     }
     new Detail();
 })();

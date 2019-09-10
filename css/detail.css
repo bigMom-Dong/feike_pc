@@ -5,13 +5,16 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fiel
 html,body{font:12px/150% "";}
 a{text-decoration: none;}
 .color9{color: #999;}
+.colorRed{color: #666;}
 .clearfix{clear:both;}
+.f24{font-size: 24px;}
 .fb{font-weight: bold;}
 .f12{font-size:12px;}
 .f14{font-size: 14px;}
 .fl{float: left;display: inline;}
 .fr{float:right;display: inline;}
 li{list-style: none;}
+.ml10{margin-left:10px;}
 .mr10{margin-right:10px;}
 .mr20{margin-right: 20px;}
 .mt5{margin-top:5px;}
@@ -34,7 +37,6 @@ a{color: #000;outline: none;}
 .goodsDetailBox .detailRight{width:708px;height: 540px;}
 .goodsMainPic a{width:372px;height:368px;display: block;position: relative;}
 .goodsMainPic a img{display: block;position: absolute;top:8px;left:0;border:0;background: #f5f5f5;width:372px;height:368px;}
-
 .detailRight{width:708px;height:540px;}
 .detailRight .detailTitle{font-size:23px;line-height: 30px;margin-top: 20px;font-weight: normal;}
 .detailRight .detailInfo{padding:12px 0;color: #818181;}
@@ -53,3 +55,14 @@ a{color: #000;outline: none;}
 .collect{line-height: 41px;background: url(../images/smallImg/collect.jpg) no-repeat left;padding-left: 20px;}
 .bdshare .bds_more{color: #333;float: left;}
 .bdshare .bds_tsina{background-position: 0 -104px;}
+.baison-base.baison-visible {visibility: visible;}
+.baison-base{position: fixed;height:100%;width:100%;top:0;left:0;}
+.smokebg{position: absolute;top:0;left:0;width:100%;background-color: #000;opacity: 0.2;}
+#iframe{position: absolute;top:0;left:0;width:100%;border-style: none;z-index: -1;opacity: 0;background-color: #fff;}
+.baison-base .dialog{position: absolute;top:35%;left:50%;width:592px;margin-left:-296px;fong-size:14px;}
+.dialog-inner .inner-inner{padding:20px 30px 24px 30px;overflow: hidden;position: relative;background-color: #fff;z-index: 9999;}
+.show_add_goods_div .dialog-title{border-bottom:0;}
+.dialog-title{padding-bottom:15px;font-size:20px;}
+.dialog-title .close{position: absolute;top:24px;right:33px;line-height: 100%;font-weight:bold;font-sze:24px;}
+.dialog-con{text-align:center;padding:25px 15px;}
+.add_success button{margin-top: 25px;width:165px;height:41px;line-height: 41px;background-color: #0061af;color: #fff;border: 0;border-radius: 5px;}

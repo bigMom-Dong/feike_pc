@@ -4,6 +4,7 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fiel
 }
 a{text-decoration: none;}
 .bc{margin-left: auto;margin-right: auto;}
+.fl{float:left;}
 .f14{font-size: 14px;}
 .fr{float: right;display: inline;}
 li{list-style: none;}
@@ -31,3 +32,10 @@ li{list-style: none;}
 .cart_btn input{width:147px;height:36px;font-size: 15px;line-height: 36px;}
 .cart_btn .buy{border: 1px solid #ff7c44;background-color: #ff7c44;color: #fff;}
 .cart_btn .continue{border:1px solid #dcdddd;background-color: #fafafa;color: #727171;}
+.shop_cart td{border-bottom:1px solid #dfdfdf;}
+.shop_cart .cart_proItem{padding:10px 0;}
+.shop .cartImg{width:120px;padding:0 11px 0 56px;display: table-cell;vertical-align: middle}
+.cart_proItem .cart_name{padding:40px 0;}
+.cartNum{width:134px;}
+.cartNum .reduce,.add{display:block;float:left;width:28px;height:28px;line-height: 28px;border: 1px solid #dfdfdf;background-color: #fafafa;}
+.cartNum .number{float:left;width:74px;height:28px;line-height: 28px;border-top:1px solid #dfdfdf;border-left:0;border-right:0;font-size: 14px;}
