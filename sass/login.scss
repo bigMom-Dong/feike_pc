@@ -1,0 +1,241 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,span, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: noe;
+  }
+  a {
+    text-decoration: none;
+  }
+  .w1240 {
+    width: 1240px;
+  }
+  .bc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reg_wapper {
+    width: 452px;
+    padding: 83px 0 165px;
+  }
+  .blue {
+    color: #0c82d9;
+  }
+  .f20 {
+    font-size: 20px;
+  }
+  .tc {
+    text-align: center;
+  }
+  .login_tab {
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    a {
+      display: inline-block;
+      width: 226px;
+      height: 42px;
+      color: #fff;
+      float: left;
+      background: #ccc;
+      line-height: 42px;
+      &.current {
+        background: #2264af;
+      }
+    }
+  }
+  .f16 {
+    font-size: 16px;
+  }
+  .login_content {
+    width: 300px;
+    overflow: hidden;
+    b {
+      font-size: 12px;
+    }
+    .printpic {
+      width: 107px;
+      height: 30px;
+      line-height: 30px;
+      display: block;
+      margin-left: 0px;
+      border-left: 1px solid #e7e7e7;
+      font-size: 12px;
+    }
+    .code {
+      width: 258px;
+      height: 30px;
+    }
+    .mcode {
+      width: 300px;
+      height: 30px;
+      span {
+        float: left;
+        display: block;
+      }
+      input {
+        float: left;
+        display: block;
+      }
+      #free_code {
+        width: 108px;
+        height: 30px;
+        float: right;
+        font-size: 12px;
+        padding: 0;
+      }
+    }
+  }
+  #d_login {
+    display: block;
+  }
+  .user_login {
+    width: 300px;
+    margin-top: 38px;
+    li {
+      width: 298px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #e7e7e7;
+      margin-bottom: 23px;
+      span {
+        left: 0;
+        top: 0;
+        top: 0;
+        width: 30px;
+        height: 30px;
+        border-right: 1px solid #000;
+      }
+      input {
+        padding-left: 40px;
+        border: 0;
+        width: 258px;
+        height: 27px;
+      }
+    }
+    .user {
+      span {
+        background: url(../images/user/user-id.png) no-repeat center;
+        background-size: 50%;
+      }
+    }
+    .pass {
+      span {
+        background: url(../images/user/user-pwd.png) no-repeat center;
+        background-size: 50%;
+      }
+    }
+    .ccode {
+      span {
+        background: url(../images/user/user-code.png) no-repeat center;
+        background-size: 50%;
+      }
+    }
+    .mcode {
+      span {
+        background: url(../images/user/user-pwd.png) no-repeat center;
+        background-size: 50%;
+      }
+    }
+  }
+  .pr {
+    position: relative;
+  }
+  .in_b {
+    display: inline-block;
+  }
+  .pa {
+    position: absolute;
+  }
+  .loginBtn {
+    width: 300px;
+    input {
+      width: 300px;
+      height: 39px;
+      line-height: 39px;
+      border: 0;
+      margin-bottom: 10px;
+      background-color: #0c82d9;
+      color: #fff;
+      font-size: 15px;
+    }
+  }
+  .mt10 {
+    margin-top: 10px;
+  }
+  .go_reg {
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    .reg_forget {
+      width: 175px;
+      height: 30px;
+      float: left;
+    }
+    span {
+      float: left;
+    }
+  }
+  .fl {
+    float: left;
+    display: inline;
+  }
+  .pl20 {
+    padding-left: 20px;
+  }
+  .reg_forget {
+    span {
+      input {
+        left: 0;
+        top: 2px;
+      }
+    }
+  }
+  .block {
+    display: block;
+  }
+  .none {
+    display: none;
+  }
+  .quick_login {
+    margin-top: 25px;
+    width: 300px;
+    font-size: 14px;
+    color: #999;
+  }
+  .quick_login_tit {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+  }
+  fieldset,img {
+    border: 0;
+  }
+  .account_list {
+    li {
+      a {
+        display: block;
+        width: 32px;
+        height: 32px;
+        float: left;
+        margin-left: 10px;
+        &.wx {
+          background: url(../images/user/login_icon_bg.png) no-repeat left;
+          background-position: -99px 0;
+          &:hover {
+            background: url(../images/user/login_icon_bg.png) no-repeat left;
+            background-position: -99px -32px;
+          }
+        }
+        &.qq {
+          background: url(../images/user/login_icon_bg.png) no-repeat left;
+          background-position: 0 0;
+          &:hover {
+            background: url(../images/user/login_icon_bg.png) no-repeat left;
+            background-position: 0 -32px;
+          }
+        }
+      }
+    }
+  }
+  

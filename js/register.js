@@ -163,7 +163,8 @@
                     name : this.nickNameObj.value,
                     pass : this.pwdObj.value,
                     phone : this.phoneObj.value,
-                    email : this.emailObj.value
+                    email : this.emailObj.value,
+                    onOff : 0
                 })
                 window.location.href="http://localhost/feike_pc/login.html";
             }else{

@@ -19,7 +19,7 @@
             // this.forgetObj = document.querySelector("#forget");
             this.status =0;
             this.setBtn();
-            this.forget();
+            // this.forget();
         }
         setBtn(){
             this.btnLogin.onclick = ()=>{
@@ -80,7 +80,6 @@
         }
         getLocal(){
             this.goods = localStorage.getItem("goods") ? JSON.parse(localStorage.getItem("goods")) : [];
-            console.log(this.goods);
             //是否新增状态值判断邮箱或者手机号码登录
             if(this.goods == ""){
                 // console.log("信息为空");
@@ -96,11 +95,14 @@
                     }
                 })
                 if(bol){
+                    this.goods[i].onOff = 1;
                     window.location.href = "http://localhost/feike_pc/index.html";
+                    
                 }else{
                     alert("请检查输入信息!");
                     window.location.href = "http://localhost/feike_pc/login.html";
                 }
+                localStorage.setItem("goods",JSON.stringify(this.goods));
             }
         }
         // 忘记密码

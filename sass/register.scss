@@ -1,0 +1,166 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .w1240 {
+    width: 1240px;
+  }
+  .bc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tc {
+    text-align: center;
+  }
+  .f24 {
+    font-size: 24px;
+  }
+  .blue {
+    color: #0c82d9;
+  }
+  .block {
+    display: block;
+  }
+  .mb10 {
+    margin-bottom: 10px;
+  }
+  .mt30 {
+    margin-top: 30px;
+  }
+  .f14 {
+    font-size: 14px;
+  }
+  .pr {
+    position: relative;
+  }
+  .pa {
+    position: absolute;
+  }
+  .fl {
+    float: left;
+    display: inline;
+  }
+  .color {
+    color: rgb(169, 169, 169);
+  }
+  .txt {
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    padding-left: 40px;
+    width: 277px;
+  }
+  .content {
+    width: 100%;
+    min-width: 1240px;
+    background: url(../images/banner.jpg) no-repeat left;
+  }
+  .rg_c {
+    height: 480px;
+    padding: 40px 0;
+  }
+  .rg_form {
+    background-color: #fff;
+    padding: 30px;
+    width: 320px;
+    float: right;
+  }
+  .reg_content {
+    width: 320px;
+    height: 354px;
+    .user_reg {
+      li {
+        width: 318px;
+        height: 30px;
+        border: 1px solid #e6e6e6;
+        margin-bottom: 23px;
+        span {
+          left: 0;
+          top: 0;
+          width: 30px;
+          height: 30px;
+          border: 1px solid hsl(0, 0%, 90%);
+        }
+      }
+      .ccode {
+        span {
+          background: url(../images/user/user-code.png) no-repeat center;
+          background-size: 50%;
+        }
+      }
+      .user {
+        span {
+          background: url(../images/user/user-id.png) no-repeat center;
+          background-size: 50%;
+        }
+        .muser {
+          width: 277px;
+        }
+      }
+      .mcode {
+        span {
+          background: url(../images/user/user-mcode.png) no-repeat center;
+          background-size: 50%;
+        }
+      }
+      .pwd {
+        span {
+          background: url(../images/user/user-pwd.png) no-repeat center;
+          background-size: 50%;
+        }
+      }
+    }
+    .code {
+      width: 277px;
+      border-right: 1px solid #e6e6e6;
+    }
+    .dynamic {
+      width: 70px;
+      height: 20px;
+      margin-top: 5px;
+      margin-left: 0px;
+      line-height: 25px;
+      display: inline-block;
+      border-right: 1px solid #e7e7e7;
+    }
+    .change {
+      margin-top: 0px;
+      marign-right: 6px;
+      float: right;
+      font-weight: bold;
+      color: #0c82d9;
+      font-size: 14px;
+    }
+    a {
+      line-height: 32px;
+    }
+  }
+  .reg_form {
+    width: 320px;
+    height: 252px;
+    b {
+      font: 10px/3 "";
+    }
+  }
+  .user_reg {
+    width: 320px;
+    margin-top: 38px;
+  }
+  .regBtn {
+    width: 320px;
+    input {
+      border: 0;
+      width: 320px;
+      height: 30px;
+      font: 15px/2 "";
+      background-color: #0c82d9;
+      color: #fff;
+    }
+  }
+  

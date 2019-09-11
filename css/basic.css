@@ -22,6 +22,7 @@ a{text-decoration: none;outline: none;color:#000;}
 .login li a{color: #a5a5a5;font:7px/35px "";}
 .login .pr10{padding-right: 10px;}
 .login .pl10{padding-left: 10px;}
+.zhuxiao{float:right;display:none;font-size:12px;}
 /* header-center */
 .header-center{height: 90px;}
 .logo{height: 57px;padding-top: 28px;width:132px;float: left;}
@@ -64,7 +65,7 @@ border-left:none;float: left;}
 .left-nav .category_list{height: 460px;background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;}
 category_list{top: 46px;left: 0;z-index: 9999;padding: 20px 0;background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
     height: 420px;position: absolute;}
-.category_main{width: 183px;}
+.category_main{width: 183px;height:30px;}
 .category_info{width:183px;margin: 0 auto;font-size: 18px;}
 .ml25{margin-left: 25px;}
 .fb{font-weight: bold;height: 42px;}
